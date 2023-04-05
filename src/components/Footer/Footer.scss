@@ -1,0 +1,36 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-inline: 20px;
+  background: #dfdae1;
+  border-radius: 0px 0px 5px 5px;
+  margin-bottom: 20px;
+
+  p {
+    font-weight: 700;
+    font-size: 12px;
+    margin: 0;
+  }
+
+  .dropdown {
+    background: #ffffff;
+    border-radius: 7px;
+    padding: 8px 18px;
+  }
+
+  .navigations img {
+    background: #ffffff;
+    border-radius: 7px;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .footer-right-side,
+  .navigations {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+}

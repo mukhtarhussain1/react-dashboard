@@ -1,0 +1,26 @@
+.right-side-bar {
+    margin-top: 50px;
+  padding-inline: 40px;
+  width: 150px;
+
+  p {
+    font-weight: 700;
+    font-size: 10px;
+    color: #828282;
+    margin: 0;
+  }
+
+  h3 {
+    margin: 0;
+  }
+
+  .user-active {
+    display: flex;
+    justify-content: space-between;
+
+
+    .user-active-right {
+      text-align: end;
+    }
+  }
+}

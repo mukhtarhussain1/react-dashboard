@@ -1,0 +1,48 @@
+.sidebar {
+  padding-inline: 40px;
+  .user-details {
+    display: flex;
+    justify-content: space-between;
+
+    p {
+      font-size: 12px;
+    }
+
+    .user-details-right {
+      text-align: end;
+    }
+  }
+}
+
+hr {
+  opacity: 0.15;
+  border: 2px solid #2a0b37;
+}
+.credentials {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+
+  img {
+    height: 80%;
+    width: 80%;
+  }
+
+  p {
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 120%;
+  }
+
+  .greadentButton {
+    img {
+      height: 15%;
+      width: 15%;
+    }
+  }
+}

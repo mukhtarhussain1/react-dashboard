@@ -1,0 +1,29 @@
+.ButtonGradient {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 15px;
+  gap: 10px;
+  cursor: pointer;
+  background: linear-gradient(
+    122.96deg,
+    rgba(79, 148, 240, 0.1) 20.03%,
+    rgba(160, 32, 240, 0.1) 80.69%
+  );
+
+  span {
+    background: linear-gradient(122.96deg, #4f94f0 20.03%, #a020f0 80.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+.ButtonGradient:hover {
+  background: linear-gradient(
+    122.96deg,
+    rgba(160, 32, 240, 0.1) 20.03%,
+    rgba(79, 148, 240, 0.1) 80.69%
+  );
+}

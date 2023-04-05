@@ -1,0 +1,60 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 50px;
+
+  hr {
+    margin-top: -6px;
+  }
+}
+
+a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  border-right: 3px solid #dfdae1;
+  padding-right: 20px;
+}
+
+nav {
+  ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+    padding: 30px;
+    padding-inline: 15px;
+
+    a:hover {
+      color: #000;
+    }
+  }
+}
+
+.my-account {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding-top: 15px;
+  img {
+    width: 15%;
+    height: 15%;
+  }
+}
+
+.account {
+  font-weight: 700;
+  font-size: 14px;
+  width: 90px;
+}

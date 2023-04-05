@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.textMuted {
+  color: #828282;
+  font-weight: 700;
+}
+
+.gradientText {
+  background: linear-gradient(122.96deg, #4f94f0 20.03%, #a020f0 80.69%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  cursor: pointer;
+}
+
+.greadentButton {
+  background: linear-gradient(
+    122.96deg,
+    rgba(79, 148, 240, 0.1) 20.03%,
+    rgba(160, 32, 240, 0.1) 80.69%
+  );
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 10px;
+  gap: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+
+  p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 12px;
+  }
+}
+
+.greadentButton:hover {
+  background: linear-gradient(
+    122.96deg,
+    rgba(160, 32, 240, 0.1) 20.03%,
+    rgba(79, 148, 240, 0.1) 80.69%
+  );
+}
