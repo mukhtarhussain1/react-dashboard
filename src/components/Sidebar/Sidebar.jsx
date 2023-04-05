@@ -8,7 +8,7 @@ const Sidebar = () => {
     <div className="sidebar">
       <div className="credentials">
         <h3>Client profile</h3>
-        <img src={profile}></img>
+        <img alt="img" src={profile}></img>
         <p>John Doe</p>
         <p>abc_john@email.com</p>
         <div className="greadentButton">

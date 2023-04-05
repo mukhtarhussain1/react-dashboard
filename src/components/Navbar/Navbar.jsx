@@ -14,30 +14,30 @@ const Navbar = () => {
       <div className="header">
         <div className="menu">
           <div className="logo">
-            <a href="#">Logo</a>
+            <a href="/">Logo</a>
           </div>
           <nav>
             <ul className={`navbar-links ${isOpen ? "active" : ""}`}>
               <li>
-                <a href="">Dashboard</a>
+                <a href="/">Dashboard</a>
               </li>
               <li>
-                <a href="">Messages</a>
+                <a href="/">Messages</a>
               </li>
               <li>
-                <a href="">Clients</a>
+                <a href="/">Clients</a>
               </li>
               <li>
-                <a href="">Workouts</a>
+                <a href="/">Workouts</a>
               </li>
               <li>
-                <a href="">Recipes</a>
+                <a href="/">Recipes</a>
               </li>
               <li>
-                <a href="">Static pages</a>
+                <a href="/">Static pages</a>
               </li>
               <li>
-                <a href="">Referral codes</a>
+                <a href="/">Referral codes</a>
               </li>
             </ul>
           </nav>
@@ -45,7 +45,7 @@ const Navbar = () => {
         <div>
           <div className="my-account">
             <p className="account">My account</p>
-            <img src={downArrow} />
+            <img alt="img" src={downArrow} />
             <div className="navbar-toggle" onClick={handleToggle}>
               <span></span>
               <span></span>

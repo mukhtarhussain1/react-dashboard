@@ -67,12 +67,12 @@ const HomePage = () => {
                   </div>
                   <div className="collapsd-right-side">
                     <div className="video-title">
-                      <img src={videoIcon} />
+                      <img alt="img" src={videoIcon} />
                       <h5 className="gradientText">Submitted video</h5>
                     </div>
                     <div className="images-container">
-                      <img src={image} />
-                      <img src={image} />
+                      <img alt="img" src={image} />
+                      <img alt="img" src={image} />
                     </div>
                   </div>
                 </div>
@@ -102,7 +102,7 @@ const HomePage = () => {
                   </div>
                   <div className="collapsd-right-side">
                     <div className="video-title">
-                      <img src={videoIcon} />
+                      <img alt="img" src={videoIcon} />
                       <h5 className="gradientText">Submitted video</h5>
                     </div>
                     <div className="images-container"></div>

@@ -11,7 +11,7 @@ const Collapes = ({ date, status, color }) => {
         <p className={color ? "red" : ""}>{status}</p>
         {!color && (
           <div>
-            <img src={downArrow} />
+            <img alt="img" src={downArrow} />
           </div>
         )}
       </div>

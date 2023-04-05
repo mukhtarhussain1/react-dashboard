@@ -12,8 +12,8 @@ const Footer = () => {
         <p>Rows per page</p>
         <p className="dropdown">15</p>
         <div className="navigations">
-          <img src={prev} />
-          <img src={next} />
+          <img alt="img" src={prev} />
+          <img alt="img" src={next} />
         </div>
       </div>
     </div>
