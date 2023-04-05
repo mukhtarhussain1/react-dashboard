@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.scss";
 
 import downArrow from "../../Assets/Vector3.png";
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleToggle = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <>
       <div className="header">
@@ -12,7 +17,7 @@ const Navbar = () => {
             <a href="#">Logo</a>
           </div>
           <nav>
-            <ul>
+            <ul className={`navbar-links ${isOpen ? "active" : ""}`}>
               <li>
                 <a href="">Dashboard</a>
               </li>
@@ -41,6 +46,11 @@ const Navbar = () => {
           <div className="my-account">
             <p className="account">My account</p>
             <img src={downArrow} />
+            <div className="navbar-toggle" onClick={handleToggle}>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
           </div>
           <hr />
         </div>
